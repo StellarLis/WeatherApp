@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/card_red_bg">
+
+    <TextView
+        android:id="@+id/tvHoursOrDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:layout_gravity="center_horizontal"
+        android:text="15:00" />
+    <TextView
+        android:id="@+id/tvTemp_c_hd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:layout_gravity="center_horizontal"
+        android:text="23C" />
+    <TextView
+        android:id="@+id/tvCondition_hd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="65dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:layout_gravity="center_horizontal"
+        android:text="Light drizzle" />
+</androidx.cardview.widget.CardView>
